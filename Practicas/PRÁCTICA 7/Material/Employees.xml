@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.6.5.2
+- https://www.phpmyadmin.net
+-
+- Servidor: localhost
+- Tiempo de generación: 24-04-2018 a las 07:02:49
+- Versión del servidor: 10.1.21-MariaDB
+- Versión de PHP: 5.6.30
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="SteelWheelsSales" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="EMPLOYEES">
+                CREATE TABLE `EMPLOYEES` (
+                  `EMPLOYEENUMBER` int(11) NOT NULL,
+                  `LASTNAME` varchar(50) NOT NULL,
+                  `FIRSTNAME` varchar(50) NOT NULL,
+                  `EXTENSION` varchar(10) NOT NULL,
+                  `EMAIL` varchar(100) NOT NULL,
+                  `OFFICECODE` varchar(20) NOT NULL,
+                  `REPORTSTO` int(11) DEFAULT NULL,
+                  `JOBTITLE` varchar(50) NOT NULL,
+                  PRIMARY KEY (`EMPLOYEENUMBER`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Base de datos: 'SteelWheelsSales'
+    -->
+    <database name="SteelWheelsSales">
+        <!-- Tabla EMPLOYEES -->
+        <table name="EMPLOYEES">
+            <column name="EMPLOYEENUMBER">1002</column>
+            <column name="LASTNAME">Murphy</column>
+            <column name="FIRSTNAME">Diane</column>
+            <column name="EXTENSION">x5800</column>
+            <column name="EMAIL">dmurphy@classicmodelcars.com</column>
+            <column name="OFFICECODE">1</column>
+            <column name="REPORTSTO">NULL</column>
+            <column name="JOBTITLE">President</column>
+        </table>
+        <table name="EMPLOYEES">
+            <column name="EMPLOYEENUMBER">1056</column>
+            <column name="LASTNAME">Patterson</column>
+            <column name="FIRSTNAME">Mary</column>
+            <column name="EXTENSION">x4611</column>
+            <column name="EMAIL">mpatterso@classicmodelcars.com</column>
+            <column name="OFFICECODE">1</column>
+            <column name="REPORTSTO">1002</column>
+            <column name="JOBTITLE">VP Sales</column>
+        </table>
+        <table name="EMPLOYEES">
+            <column name="EMPLOYEENUMBER">1076</column>
+            <column name="LASTNAME">Firrelli</column>
+            <column name="FIRSTNAME">Jeff</column>
+            <column name="EXTENSION">x9273</column>
+            <column name="EMAIL">jfirrelli@classicmodelcars.com</column>
+            <column name="OFFICECODE">1</column>
+            <column name="REPORTSTO">1002</column>
+            <column name="JOBTITLE">VP Marketing</column>
+        </table>
+        <table name="EMPLOYEES">
+            <column name="EMPLOYEENUMBER">1088</column>
+            <column name="LASTNAME">Patterson</column>
+            <column name="FIRSTNAME">William</column>
+            <column name="EXTENSION">x4871</column>
+            <column name="EMAIL">wpatterson@classicmodelcars.com</column>
+            <column name="OFFICECODE">6</column>
+            <column name="REPORTSTO">1056</column>
+            <column name="JOBTITLE">Sales Manager (JAPAN, APAC)</column>
+        </table>
+        <table name="EMPLOYEES">
+            <column name="EMPLOYEENUMBER">1102</column>
+            <column name="LASTNAME">Bondur</column>
+            <column name="FIRSTNAME">Gerard</column>
+            <column name="EXTENSION">x5408</column>
+            <column name="EMAIL">athompson@classicmodelcars.com</column>
+            <column name="OFFICECODE">4</column>
+            <column name="REPORTSTO">1056</column>
+            <column name="JOBTITLE">Sale Manager (EMEA)</column>
+        </table>
+        <table name="EMPLOYEES">
+            <column name="EMPLOYEENUMBER">1143</column>
+            <column name="LASTNAME">Bow</column>
+            <column name="FIRSTNAME">Anthony</column>
+            <column name="EXTENSION">x5428</column>
+            <column name="EMAIL">bhoward@classicmodelcars.com</column>
+            <column name="OFFICECODE">1</column>
+            <column name="REPORTSTO">1056</column>
+            <column name="JOBTITLE">Sales Manager (NA)</column>
+        </table>
+        <table name="EMPLOYEES">
+            <column name="EMPLOYEENUMBER">1165</column>
+            <column name="LASTNAME">Jennings</column>
+            <column name="FIRSTNAME">Leslie</column>
+            <column name="EXTENSION">x3291</column>
+            <column name="EMAIL">ljennings@classicmodelcars.com</column>
+            <column name="OFFICECODE">1</column>
+            <column name="REPORTSTO">1143</column>
+            <column name="JOBTITLE">Sales Rep</column>
+        </table>
+        <table name="EMPLOYEES">
+            <column name="EMPLOYEENUMBER">1166</column>
+            <column name="LASTNAME">Thompson</column>
+            <column name="FIRSTNAME">Leslie</column>
+            <column name="EXTENSION">x4065</column>
+            <column name="EMAIL">lthompson@classicmodelcars.com</column>
+            <column name="OFFICECODE">1</column>
+            <column name="REPORTSTO">1143</column>
+            <column name="JOBTITLE">Sales Rep</column>
+        </table>
+        <table name="EMPLOYEES">
+            <column name="EMPLOYEENUMBER">1188</column>
+            <column name="LASTNAME">Firrelli</column>
+            <column name="FIRSTNAME">Julie</column>
+            <column name="EXTENSION">x2173</column>
+            <column name="EMAIL">jfirrelli@classicmodelcars.com</column>
+            <column name="OFFICECODE">2</column>
+            <column name="REPORTSTO">1143</column>
+            <column name="JOBTITLE">Sales Rep</column>
+        </table>
+        <table name="EMPLOYEES">
+            <column name="EMPLOYEENUMBER">1216</column>
+            <column name="LASTNAME">Patterson</column>
+            <column name="FIRSTNAME">Steve</column>
+            <column name="EXTENSION">x4334</column>
+            <column name="EMAIL">spatterso@classicmodelcars.com</column>
+            <column name="OFFICECODE">2</column>
+            <column name="REPORTSTO">1143</column>
+            <column name="JOBTITLE">Sales Rep</column>
+        </table>
+        <table name="EMPLOYEES">
+            <column name="EMPLOYEENUMBER">1286</column>
+            <column name="LASTNAME">Tseng</column>
+            <column name="FIRSTNAME">Foon Yue</column>
+            <column name="EXTENSION">x2248</column>
+            <column name="EMAIL">ftseng@classicmodelcars.com</column>
+            <column name="OFFICECODE">3</column>
+            <column name="REPORTSTO">1143</column>
+            <column name="JOBTITLE">Sales Rep</column>
+        </table>
+        <table name="EMPLOYEES">
+            <column name="EMPLOYEENUMBER">1323</column>
+            <column name="LASTNAME">Vanauf</column>
+            <column name="FIRSTNAME">George</column>
+            <column name="EXTENSION">x4102</column>
+            <column name="EMAIL">gvanauf@classicmodelcars.com</column>
+            <column name="OFFICECODE">3</column>
+            <column name="REPORTSTO">1143</column>
+            <column name="JOBTITLE">Sales Rep</column>
+        </table>
+        <table name="EMPLOYEES">
+            <column name="EMPLOYEENUMBER">1337</column>
+            <column name="LASTNAME">Bondur</column>
+            <column name="FIRSTNAME">Loui</column>
+            <column name="EXTENSION">x6493</column>
+            <column name="EMAIL">lbondur@classicmodelcars.com</column>
+            <column name="OFFICECODE">4</column>
+            <column name="REPORTSTO">1102</column>
+            <column name="JOBTITLE">Sales Rep</column>
+        </table>
+        <table name="EMPLOYEES">
+            <column name="EMPLOYEENUMBER">1370</column>
+            <column name="LASTNAME">Hernandez</column>
+            <column name="FIRSTNAME">Gerard</column>
+            <column name="EXTENSION">x2028</column>
+            <column name="EMAIL">ghernande@classicmodelcars.com</column>
+            <column name="OFFICECODE">4</column>
+            <column name="REPORTSTO">1102</column>
+            <column name="JOBTITLE">Sales Rep</column>
+        </table>
+        <table name="EMPLOYEES">
+            <column name="EMPLOYEENUMBER">1401</column>
+            <column name="LASTNAME">Castillo</column>
+            <column name="FIRSTNAME">Pamela</column>
+            <column name="EXTENSION">x2759</column>
+            <column name="EMAIL">pcastillo@classicmodelcars.com</column>
+            <column name="OFFICECODE">4</column>
+            <column name="REPORTSTO">1102</column>
+            <column name="JOBTITLE">Sales Rep</column>
+        </table>
+        <table name="EMPLOYEES">
+            <column name="EMPLOYEENUMBER">1501</column>
+            <column name="LASTNAME">Bott</column>
+            <column name="FIRSTNAME">Larry</column>
+            <column name="EXTENSION">x2311</column>
+            <column name="EMAIL">lbott@classicmodelcars.com</column>
+            <column name="OFFICECODE">7</column>
+            <column name="REPORTSTO">1102</column>
+            <column name="JOBTITLE">Sales Rep</column>
+        </table>
+        <table name="EMPLOYEES">
+            <column name="EMPLOYEENUMBER">1504</column>
+            <column name="LASTNAME">Jones</column>
+            <column name="FIRSTNAME">Barry</column>
+            <column name="EXTENSION">x102</column>
+            <column name="EMAIL">bjones@classicmodelcars.com</column>
+            <column name="OFFICECODE">7</column>
+            <column name="REPORTSTO">1102</column>
+            <column name="JOBTITLE">Sales Rep</column>
+        </table>
+        <table name="EMPLOYEES">
+            <column name="EMPLOYEENUMBER">1611</column>
+            <column name="LASTNAME">Fixter</column>
+            <column name="FIRSTNAME">Andy</column>
+            <column name="EXTENSION">x101</column>
+            <column name="EMAIL">afixter@classicmodelcars.com</column>
+            <column name="OFFICECODE">6</column>
+            <column name="REPORTSTO">1088</column>
+            <column name="JOBTITLE">Sales Rep</column>
+        </table>
+        <table name="EMPLOYEES">
+            <column name="EMPLOYEENUMBER">1612</column>
+            <column name="LASTNAME">Marsh</column>
+            <column name="FIRSTNAME">Peter</column>
+            <column name="EXTENSION">x102</column>
+            <column name="EMAIL">pmarsh@classicmodelcars.com</column>
+            <column name="OFFICECODE">6</column>
+            <column name="REPORTSTO">1088</column>
+            <column name="JOBTITLE">Sales Rep</column>
+        </table>
+        <table name="EMPLOYEES">
+            <column name="EMPLOYEENUMBER">1619</column>
+            <column name="LASTNAME">King</column>
+            <column name="FIRSTNAME">Tom</column>
+            <column name="EXTENSION">x103</column>
+            <column name="EMAIL">tking@classicmodelcars.com</column>
+            <column name="OFFICECODE">6</column>
+            <column name="REPORTSTO">1088</column>
+            <column name="JOBTITLE">Sales Rep</column>
+        </table>
+        <table name="EMPLOYEES">
+            <column name="EMPLOYEENUMBER">1621</column>
+            <column name="LASTNAME">Nishi</column>
+            <column name="FIRSTNAME">Mami</column>
+            <column name="EXTENSION">x101</column>
+            <column name="EMAIL">mnishi@classicmodelcars.com</column>
+            <column name="OFFICECODE">5</column>
+            <column name="REPORTSTO">1088</column>
+            <column name="JOBTITLE">Sales Rep</column>
+        </table>
+        <table name="EMPLOYEES">
+            <column name="EMPLOYEENUMBER">1625</column>
+            <column name="LASTNAME">Kato</column>
+            <column name="FIRSTNAME">Yoshimi</column>
+            <column name="EXTENSION">x102</column>
+            <column name="EMAIL">ekato@classicmodelcars.com</column>
+            <column name="OFFICECODE">5</column>
+            <column name="REPORTSTO">1088</column>
+            <column name="JOBTITLE">Sales Rep</column>
+        </table>
+        <table name="EMPLOYEES">
+            <column name="EMPLOYEENUMBER">1702</column>
+            <column name="LASTNAME">Gerard</column>
+            <column name="FIRSTNAME">Martin</column>
+            <column name="EXTENSION">x2312</column>
+            <column name="EMAIL">gmartin@classicmodelcars.com</column>
+            <column name="OFFICECODE">4</column>
+            <column name="REPORTSTO">1102</column>
+            <column name="JOBTITLE">Sales Rep</column>
+        </table>
+    </database>
+</pma_xml_export>
