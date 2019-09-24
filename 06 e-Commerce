@@ -1,0 +1,23 @@
+
+B2C Bussiness to Customers -> Comercio entre empresa y cliente (Amazon)
+B2B Bussiness to Bussiness -> Comercio entre empresas
+C2C	Customers to Customers -> Comercio entre clientes (Walapop)
+
+e-Commerce -> Comercio online, tenemos una página web y vendemos a través de ella
+
+Es un proceso operativo dentro de la empresa
+Tiene relacion con el Canal de ventas e importancia respecto al CRM (Ventas)
+
+Es muy importante el tema de la seguridad en las transacciones monetarias cliente-empresa
+
+Infraestructura online del pago (seguro)
+	Modelo 3D (3 Dominios)
+
+	Dominio emisor			|	Dominio interoperabilidad	|	Dominio acquirer
+	-Ordenador del cliente 	|	Red de Visa, Mastercard...	|	-Tienda online
+	-Banco					|								|	-Banco del cliente
+
+Cuando se realiza una compra online pueden aparecer todos estos actores
+
+El dominio de interoperatibilidad hace las funciones de intermediario seguro para realizar las transacciones entre los bancos
+es donde se pide la contraseña segura de comercio electronico del banco, el codigo de seguridad, etc.
